@@ -8,9 +8,16 @@ namespace ClassObject
 {
     class Cat
     {
+        private string name = "";
+
+        public Cat(string name)
+        {
+            this.name = name;
+        }
+
         public string Shout()
         {
-            return "喵";
+            return "我的名字叫" + name + " 喵";
         }
     }
 }
