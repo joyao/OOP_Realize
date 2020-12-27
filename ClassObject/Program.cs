@@ -10,7 +10,7 @@ namespace ClassObject
     {
         static void Main(string[] args)
         {
-            Cat cat = new Cat("橘貓");
+            Cat cat = new Cat();
             Console.WriteLine(cat.Shout());
             Console.ReadLine();
         }

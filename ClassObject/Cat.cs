@@ -15,6 +15,11 @@ namespace ClassObject
             this.name = name;
         }
 
+        public Cat()
+        {
+            this.name = "無名";
+        }
+
         public string Shout()
         {
             return "我的名字叫" + name + " 喵";
