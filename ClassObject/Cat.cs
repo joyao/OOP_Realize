@@ -9,6 +9,7 @@ namespace ClassObject
     class Cat
     {
         private string name = "";
+        private int shoutNum = 3;
 
         public Cat(string name)
         {
@@ -20,9 +21,33 @@ namespace ClassObject
             this.name = "無名";
         }
 
+        public int ShoutNum
+        {
+            get
+            {
+                return shoutNum;
+            }
+            set
+            {
+                if (value <= 10)
+                {
+                    shoutNum = value;
+                }
+                else
+                {
+                    shoutNum = 10;
+                }
+            }
+        }
+
         public string Shout()
         {
-            return "我的名字叫" + name + " 喵";
+            string result = "";
+            for (int i = 0; i < shoutNum; i++)
+            {
+                result += "喵 ";
+            }
+            return "我的名字叫" + name + " " + result;
         }
     }
 }

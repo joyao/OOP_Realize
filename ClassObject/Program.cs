@@ -11,6 +11,7 @@ namespace ClassObject
         static void Main(string[] args)
         {
             Cat cat = new Cat();
+            cat.ShoutNum = 5;
             Console.WriteLine(cat.Shout());
             Console.ReadLine();
         }
