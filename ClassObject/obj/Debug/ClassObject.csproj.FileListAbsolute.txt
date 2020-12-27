@@ -1,0 +1,6 @@
+D:\GoogleDrive\OOP\ClassObject\bin\Debug\ClassObject.exe.config
+D:\GoogleDrive\OOP\ClassObject\bin\Debug\ClassObject.exe
+D:\GoogleDrive\OOP\ClassObject\bin\Debug\ClassObject.pdb
+D:\GoogleDrive\OOP\ClassObject\obj\Debug\ClassObject.csprojAssemblyReference.cache
+D:\GoogleDrive\OOP\ClassObject\obj\Debug\ClassObject.exe
+D:\GoogleDrive\OOP\ClassObject\obj\Debug\ClassObject.pdb
