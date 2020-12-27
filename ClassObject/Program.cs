@@ -14,6 +14,11 @@ namespace ClassObject
             cat.ShoutNum = 5;
             Console.WriteLine(cat.Shout());
             Console.ReadLine();
+
+            Dog dog = new Dog();
+            dog.ShoutNum = 11;
+            Console.WriteLine(dog.Shout());
+            Console.ReadLine();
         }
     }
 }
